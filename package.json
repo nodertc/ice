@@ -1,0 +1,45 @@
+{
+  "name": "@nodertc/ice",
+  "version": "0.0.0",
+  "description": "Interactive Connectivity Establishment Protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodertc/ice.git"
+  },
+  "keywords": [
+    "nodertc",
+    "ice",
+    "webrtc",
+    "nat",
+    "rfc8445",
+    "stun"
+  ],
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodertc/ice/issues"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/nodertc/ice#readme",
+  "devDependencies": {
+    "@nodertc/eslint-config": "^0.2.1",
+    "eslint": "^5.16.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "stun": "^1.3.1"
+  },
+  "eslintConfig": {
+    "extends": "@nodertc"
+  }
+}

@@ -1,0 +1,8 @@
+/node_modules
+/fixtures
+/.jest-cache
+/coverage
+
+# IDE
+.idea
+/.vscode
